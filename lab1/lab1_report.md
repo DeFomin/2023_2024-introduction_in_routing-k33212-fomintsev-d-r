@@ -6,7 +6,7 @@ Group: K33212
 Author: Fomintsev Denis Ruslanovich  
 Lab: Lab1  
 Date of create: 04.09.2023  
-Date of finished: .09.2023  
+Date of finished: 15.09.2023  
 
 
 ## Лабораторная работ №1 "Установка ContainerLab и развертывание тестовой сети связи"
@@ -130,6 +130,13 @@ mgmt:
 ### <a name="section4.6">Настройка SW02.L3.02</a> 
 
 <img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/c2a25201-e239-4110-8dd5-160a355d6be8" width=900>
+
+
+## <a name="section5">Проверка доступности</a>
+
+![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9e765051-2552-4c9e-a317-15aa343f025b)
+
+![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/270bdd1c-8769-478b-8733-2d14155757a4)
 
 
 
