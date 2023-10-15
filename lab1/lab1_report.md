@@ -22,6 +22,7 @@ Date of finished: 15.09.2023
     - [Настройка SW01.L3.01](#section4.4)
     - [Настройка SW02.L3.01](#section4.5)
     - [Настройка SW02.L3.02](#section4.6)
+  - [Проверка доступности](#section5)
 
 
 ## <a name="section1">Описание</a>
