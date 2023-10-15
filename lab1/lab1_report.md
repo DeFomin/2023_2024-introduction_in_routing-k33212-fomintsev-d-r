@@ -18,6 +18,10 @@ Date of finished: .09.2023
 - [Ход работы](#section4)
   - [Подготовка](#section4.1)
   - [Сеть](#section4.2)
+    - [Настройка роутера R01](#section4.3)
+    - [Настройка SW01.L3.01](#section4.4)
+    - [Настройка SW02.L3.01](#section4.5)
+    - [Настройка SW02.L3.02](#section4.6)
 
 
 ## <a name="section1">Описание</a>
@@ -99,7 +103,7 @@ mgmt:
 
 <img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/f0c03f87-e5dd-44c6-8231-44dc65dbf9d7" width=900>
 
-### <a name="section4.2">Настройка роутера R01</a>  
+### <a name="section4.3">Настройка роутера R01</a>  
 
 <img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/84085da8-821c-4350-8eb0-93d0e3606bc9" width=900>  
 
@@ -111,14 +115,21 @@ mgmt:
 * Интерфейс ether1 получает адрес 195.58.228.138/30, а интерфейсы vlan10 и vlan20 получают адреса 172.20.10.1/24 и 172.20.20.1/24 соответственно.
 * Добавляются настройки сетей для DHCP-серверов. Эти настройки включают адреса сетей и их шлюзы.
 
-### <a name="section4.2">Настройка SW01.L3.01</a>  
+### <a name="section4.4">Настройка SW01.L3.01</a>  
 
 <img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/b36b661c-e154-4725-be67-3dbe9da3bce1" width=900>  
 
+* Создается мост с именем "bridge", который будет использоваться для объединения разных VLAN-ов.
+* Добавление интерфейсов "vlanN" в мост "bridgeN", связывая их с этим мостом.
+* Включение DHCP-клиента на интерфейсе "ether1". Это позволит устройству получить конфигурацию IP-адреса автоматически от DHCP-сервера.
 
+### <a name="section4.5">Настройка SW02.L3.01</a> 
 
+<img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/18d206bd-9110-4247-b453-cd3d56eef790" width=900>
 
+### <a name="section4.6">Настройка SW02.L3.02</a> 
 
+<img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/c2a25201-e239-4110-8dd5-160a355d6be8" width=900>
 
 
 
