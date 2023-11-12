@@ -32,7 +32,9 @@ Date of finished: 08.09.2023
 ## <a name="section4">Ход работы</a>
 
 1. Создание схемы сети
+![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9877b550-47ff-4908-9c52-556421474e16)
 
+![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/c314f6b3-05a2-45dc-b769-8a82e649db71)
 
 
 
