@@ -71,11 +71,11 @@ EoMPLS представляет собой механизм, который по
 
 Создаем файл сети, согласно схеме, представленной в лабораторной работе №3
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/385d2eca-8d38-4fc3-b609-c9b3635ce15e" width=700></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/385d2eca-8d38-4fc3-b609-c9b3635ce15e" width=900></p>
 
 С помощью команды ```sudo containerlab graph -t mpls.yaml```:  
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/ed4843b8-bf05-4624-a6ac-69d8374caaef" width=700></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/ed4843b8-bf05-4624-a6ac-69d8374caaef" width=900></p>
 
 
 
