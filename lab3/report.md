@@ -76,7 +76,7 @@ EoMPLS представляет собой механизм, который по
 
 С помощью команды ```sudo containerlab graph -t mpls.yaml```:  
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/e0773eba-1cb0-4858-be56-d18e3c4e3fc7" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/0418a209-5284-440c-9e8b-fa035abf2a69" width=900></p>
 
 ### <a name="section4.2">PC1 и Router SPB</a>
 
@@ -140,6 +140,8 @@ remote-peer - IP-адрес удаленного узла.
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/c0771438-b8b7-4f7c-acbd-e3ce5076bb42" width=900></p>
 
 * **Настройка SGI_Prism**
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/8a7c9f03-5e3f-4888-a0d6-40fcc64a690f" width=900></p>
 
 ### <a name="section4.5">Проверка</a>
 
