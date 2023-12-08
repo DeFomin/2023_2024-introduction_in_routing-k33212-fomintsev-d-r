@@ -6,7 +6,7 @@ Group: K33212
 Author: Fomintsev Denis Ruslanovich  
 Lab: Lab3  
 Date of create: 08.12.2023  
-Date of finished: 10.12.2023  
+Date of finished: 09.12.2023  
 
 ## Лабораторная работа №3 "Эмуляция распределенной корпоративной сети связи, настройка OSPF и MPLS, организация первого EoMPLS"
 
