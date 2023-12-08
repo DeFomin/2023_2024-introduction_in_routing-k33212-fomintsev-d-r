@@ -117,14 +117,33 @@ remote-peer - IP-адрес удаленного узла.
 
 ### <a name="section4.3">Routers HKI; MSK; LBN; LND</a>
 
+* **Настройка роутера HKI**
+
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/07535bb2-2ff4-48e4-9744-c330cca599eb" width=900></p>
 
+* **Настройка роутера MSK**
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/7087c1ea-a27f-41c3-bf3a-fc633aefc760" width=900></p>
+
+* **Настройка роутера LBN**
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/d22155d5-f52f-4397-bf9c-5e099165d915" width=900></p>
+
+* **Настройка роутера LND**
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/fda1dac9-d523-441c-9031-fd3f693502f0" width=900></p>
 
 ### <a name="section4.4">SGI_Prism и Router NYC</a>
 
+* **Настройка роутера NYC**
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/c0771438-b8b7-4f7c-acbd-e3ce5076bb42" width=900></p>
+
+* **Настройка SGI_Prism**
+
 ### <a name="section4.5">Проверка</a>
 
-## <a name="section4.6">Выыод</a>
+## <a name="section4.6">Вывод</a>
 
 
 
