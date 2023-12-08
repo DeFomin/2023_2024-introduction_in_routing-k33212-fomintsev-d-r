@@ -162,7 +162,8 @@ remote-peer - IP-адрес удаленного узла.
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/b8077b1a-e47e-44d2-ab45-6d2c00443a31" width=900></p>
 
-
+**icmp запрос от SGI_Prism к PC1**
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/0ab1e79b-0bcc-43be-a5e5-8d26a38d7183" width=900></p>
 
 ## <a name="section4.6">Вывод</a>
 
