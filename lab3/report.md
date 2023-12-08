@@ -16,9 +16,10 @@ Date of finished: 10.12.2023
 - [Ход работы](#section4)
   - [Схема сети](#section4.1)
   - [PC1 и Router SPB](#section4.2)
-  - [Настройка компьютеров](#section4.3)
-  - [Проверка доступности](#section4.4)
-- [Вывод](#section4.5)
+  - [Routers HKI; MSK; LBN; LND](#section4.3)
+  - [SGI_Prism и Router NYC](#section4.4)
+  - [Проверка](#section4.5)
+- [Вывод](#section4.6)
 
 ## <a name="section1">Описание</a>
 
@@ -75,7 +76,7 @@ EoMPLS представляет собой механизм, который по
 
 С помощью команды ```sudo containerlab graph -t mpls.yaml```:  
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/ed4843b8-bf05-4624-a6ac-69d8374caaef" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/e0773eba-1cb0-4858-be56-d18e3c4e3fc7" width=900></p>
 
 ### <a name="section4.2">PC1 и Router SPB</a>
 
@@ -102,11 +103,28 @@ remote-peer - IP-адрес удаленного узла.
 
 **MPLS предоставляет инфраструктуру для установки виртуальных соединений, а VPLS использует эту инфраструктуру для создания виртуальных локальных сетей.**
 
-Узнаем mac на интерфейсах R01_SPB
-
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/d261c317-7ccb-4b16-8ee3-52a1d786af8b" width=900></p>
-
 **OSPF играет роль в определении маршрутов в IP-сетях, которые соединяют различные узлы MPLS и VPLS. OSPF может использоваться для обмена информацией о маршрутах между маршрутизаторами в сети MPLS, включая маршрутизаторы, обслуживающие VPLS.**
+
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/200ac51f-cc1d-446a-9906-eb7dc720a3bb" width=900></p>
+
+
+Опция ```cisco-style``` и ```cisco-style-id``` в команде ```/interface vpls add``` в MikroTik RouterOS предоставляют возможность использовать формат метки, схожий с тем, который принят в устройствах Cisco для VPLS.
+
+Команда ```/routing ospf network add area=backbone``` в MikroTik RouterOS используется для добавления сетевого интерфейса в определенную зону OSPF area=backbone: Указывает, что сетевой интерфейс должен быть добавлен в OSPF-зону, которая называется "backbone" (главная зона OSPF с идентификатором 0.0.0.0). Зона OSPF (Area) - это логическая группа устройств OSPF внутри автономной системы (AS). OSPF разделяет сеть на зоны, и каждый маршрутизатор в зоне знает о всех маршрутах внутри этой зоны.  
+
+Это необходимо для того, чтобы данный интерфейс стал частью OSPF-роутинга и маршрутизатор мог обмениваться информацией о маршрутах с другими маршрутизаторами в этой зоне  
+
+### <a name="section4.3">Routers HKI; MSK; LBN; LND</a>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/07535bb2-2ff4-48e4-9744-c330cca599eb" width=900></p>
+
+
+### <a name="section4.4">SGI_Prism и Router NYC</a>
+
+### <a name="section4.5">Проверка</a>
+
+## <a name="section4.6">Выыод</a>
 
 
 
