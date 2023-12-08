@@ -145,8 +145,28 @@ remote-peer - IP-адрес удаленного узла.
 
 ### <a name="section4.5">Проверка</a>
 
+**Результат конфигурации MPLS**
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4e586a22-b1d9-46d0-bfd7-c1665e7acae6" width=900></p>
+
+* L - ldp: Указывает, что некоторые записи связаны с протоколом LDP (Label Distribution Protocol).  
+* T - traffic-eng: Относится к записям, связанным с механизмами Traffic Engineering (TE) MPLS.  
+
+* OUT-LABELS: Выходные метки, которые указывают, какие метки будут использоваться для пересылки трафика к следующему узлу.
+* DESTINATION: Адрес или сеть, для которой настроена метка.  
+* INTERFACE: Интерфейс, через который отправляется трафик с соответствующей меткой.  
+
+**Отслеживание маршрута от роутера NYC до роутера SPB**
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/80efe296-2547-4504-8448-61de5a29cfcb" width=900></p>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/b8077b1a-e47e-44d2-ab45-6d2c00443a31" width=900></p>
+
+
+
 ## <a name="section4.6">Вывод</a>
 
+В ходе выполнения данной лабораторной работы мы на практике познакомились с протоколами OSPF, MPLS, EoMPLS и механизмами их организации.
 
 
 
