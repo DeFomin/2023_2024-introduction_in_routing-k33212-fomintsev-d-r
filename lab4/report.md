@@ -113,6 +113,8 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/172176c8-23df-49cb-b754-9a3c2a5abacb" width=900></p>
 
+После этого они автоматически будут видны на вкладке BGP-VPN4
+
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/0006a94d-a583-4471-a7b9-1cdeaa6248a2" width=900></p>
 
 ### <a name="section4.1">Таблицы маршрутизации роутера NYC</a>
