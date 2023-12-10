@@ -34,6 +34,12 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/5d5b02f4-3798-4eb1-b3ad-4107155242e6" width=800></p>
 
+На каждом из маршрутизаторов были настроены интерфейсы. На примере роутера Нью-Йорка
+
+* Роутер NYC
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/dc788b9c-99a3-41d7-be63-ee8ca696761a" width=800></p>
+
 
 ### <a name="section4.1">Настройка BGP</a>
 
@@ -53,18 +59,29 @@ Date of finished: 10.12.2023
 ### <a name="section4.1">Настройка VRF</a>
 
 
-### <a name="section4.1">Таблицы маршрутизации</a>
+### <a name="section4.1">Таблицы маршрутизации роутера NYC</a>
 
-![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/1a54fe78-b8d3-420f-bf5f-ce6726dc440e)
+* Таблица маршрутизации, после настроек всех роутеров (main)
 
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9fc4737a-339d-4d0a-98c7-1aea75b5b96d" width=800></p>
 
-![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/ad7ae5ed-35f2-441c-aa9c-1de739998deb)
+* Таблица маршрутизации, после настроек всех роутеров (VRF_DEVOPS)
 
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/63e62737-05dd-4efb-93b8-97c48df591a0" width=800></p>
 
 ### <a name="section4.1">Проверка связи</a>
 
-![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/10de0033-8a58-44f7-b71e-661b39390a86)
+* PC2 -> PC1 и PC2 -> PC3
 
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/ef986df7-6ad8-4b75-a0d1-7f7fc7d02576" width=800></p>
+
+* PC1 -> PC3 и PC1 -> PC2
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/b9cc596e-29e7-4dd6-8ca0-1eaa44cbd31b" width=800></p>
+
+* PC3 -> PC2 и PC3 -> PC1
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/e06d0c7b-81e4-4296-bd5e-ba92a3a7020e" width=800></p>
 
 ## <a name="section4.5">Вывод</a>
 
