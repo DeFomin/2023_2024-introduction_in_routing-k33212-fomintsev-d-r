@@ -94,9 +94,9 @@ Date of finished: 10.12.2023
 
 Далее настраиваем MPLS сеть на примере лондонского роутера
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/5e755b0c-00f1-476a-b270-af8a5091555f" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/3988a5f5-ace0-44f1-a1c4-96f5c5cdde6b" width=900></p>
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4a84a72f-bf5d-48c3-bbc1-75120cc137ac" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4a8f162f-dfe0-4b59-ac92-7441d0757b22" width=900></p>
 
 
 ### <a name="section4.1">Настройка VRF</a>
