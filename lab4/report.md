@@ -129,11 +129,11 @@ Date of finished: 10.12.2023
 
 2. SPB
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4ca53163-abc3-4216-9a9a-55c011669b9f" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/513f57f4-9156-480f-940a-f916bc827118" width=900></p>
 
 3. SVL
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/bf0f0226-6283-4f7c-9516-1ef0f742118e" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/6248be7d-1f91-4a30-af12-fdf45f9eabc2" width=900></p>
 
 
 ### <a name="section4.1">Проверка связи VRF</a>
