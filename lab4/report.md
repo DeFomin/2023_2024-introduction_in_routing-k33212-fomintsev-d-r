@@ -14,11 +14,17 @@ Date of finished: 10.12.2023
 - [Описание](#section1)
 - [Цель работы](#section2)
 - [Ход работы](#section4)
-  - [Построение схемы](#section4.1)
-  - [](#section4.2)
-  - [](#section4.3)
-  - [](#section4.4)
-- [Вывод](#section4.5)
+  - [Часть 1](#section7)
+    - [Построение схемы](#section4.1)
+    - [Настройка BGP](#section4.2)
+    - [Настройка OSPF и MPLS](#section4.3)
+    - [Настройка VRF](#section4.4)
+    - [Таблицы маршрутизации роутера NYC](#section4.5)
+    - [Проверка связи VRF](#section4.6)
+  - [Часть 2](#section5)
+    - [Настройка VPLS](#section5.1)
+    - [Проверка связи VPLS](#section5.2)
+- [Вывод](#section6)
  
 ## <a name="section1">Описание</a>
 
@@ -29,6 +35,8 @@ Date of finished: 10.12.2023
 Изучить протоколы BGP, MPLS и правила организации L3VPN и VPLS.
 
 ## <a name="section4">Ход работы</a>
+
+## <a name="section7">Часть 1</a>
 
 ### <a name="section4.1">Построение схемы</a>
 
@@ -60,7 +68,7 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/af2a4f26-927d-45a8-91b4-b6d055673776" width=900></p>
 
-### <a name="section4.1">Настройка BGP</a>
+### <a name="section4.2">Настройка BGP</a>
 
 Настройки BGP, прописываются к ближайшим интерфейсам узла
 
@@ -78,7 +86,7 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/416f8f8e-f7c3-4b9d-918f-d22f413facbb" width=900></p>
 
-### <a name="section4.1">Настройка OSPF и MPLS</a>
+### <a name="section4.3">Настройка OSPF и MPLS</a>
 
 Для настройки OSPF на всех узлах был создан bridge Lo
 
@@ -99,7 +107,7 @@ Date of finished: 10.12.2023
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4a8f162f-dfe0-4b59-ac92-7441d0757b22" width=900></p>
 
 
-### <a name="section4.1">Настройка VRF</a>
+### <a name="section4.4">Настройка VRF</a>
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/bd78cdd0-8d32-43b3-9dd4-adacd2beaa3a" width=900></p>
 
@@ -121,7 +129,7 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/0006a94d-a583-4471-a7b9-1cdeaa6248a2" width=900></p>
 
-### <a name="section4.1">Таблицы маршрутизации роутера NYC</a>
+### <a name="section4.5">Таблицы маршрутизации роутера NYC</a>
 
 * Таблица маршрутизации, после настроек всех роутеров (main)
 
@@ -142,7 +150,7 @@ Date of finished: 10.12.2023
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/6248be7d-1f91-4a30-af12-fdf45f9eabc2" width=900></p>
 
 
-### <a name="section4.1">Проверка связи VRF</a>
+### <a name="section4.6">Проверка связи VRF</a>
 
 * PC2 -> PC1 и PC2 -> PC3
 
@@ -156,7 +164,9 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/e06d0c7b-81e4-4296-bd5e-ba92a3a7020e" width=900></p>
 
-### <a name="section4.1">Настройка VPLS</a>
+## <a name="section5">Часть 2</a>
+
+### <a name="section5.1">Настройка VPLS</a>
 
 После мы разобрали VRF на 3 роутерах, которые соединены с PC, на узлах был настроен VPLS в этой конфигурации указываются параметры, такие как MAC-адрес, максимальный размер передаваемого кадра и адрес конечной точки удаленного узла, необходимые для обеспечения виртуальной приватной службы LAN.  
 
@@ -176,7 +186,7 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/d2b95725-bc5a-4f5c-9960-fa7e03e36cdc" width=900>
 
-### <a name="section4.1">Проверка связи VPLS</a>
+### <a name="section5.2">Проверка связи VPLS</a>
 
 * PC2
 
@@ -194,7 +204,7 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/610b24f9-c7be-46a3-b567-e886e3863080" width=900>
 
-## <a name="section4.5">Вывод</a>
+## <a name="section6">Вывод</a>
 
 В данной лабораторной работе, мы на праактике изучили протоколы BGP, MPLS и правила организации L3VPN и VPLS.
 
