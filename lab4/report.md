@@ -115,7 +115,7 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/78155424-5429-4563-884f-68eabfe60508" width=900></p>
 
-Далее, при условии, что в настроены iBGP с route reflector кластером на узле LND и включены нужные технологии на всех роутерах в настройках BGP, в появившейся вкладке VPN4 автоматически появятся маршруты
+Далее, при условии, что в настроены iBGP с route reflector кластером на узле LND и включены нужные технологии на всех роутерах в настройках BGP, в появившейся вкладке VPN4 Routes автоматически появятся маршруты
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/43497868-d4e7-4df1-abbe-297f6f6125a9" width=900></p>
 
