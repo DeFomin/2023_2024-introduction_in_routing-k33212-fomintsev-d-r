@@ -123,17 +123,20 @@ Date of finished: 10.12.2023
 
 * Таблица маршрутизации, после настроек всех роутеров (VRF_DEVOPS)
 
+1. NYC
+
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/63e62737-05dd-4efb-93b8-97c48df591a0" width=900></p>
 
-### <a name="section4.1">Настройка VPLS</a>
+2. SPB
 
-После мы разобрали VRF на 3 роутерах, на узлах был настроен VPLS в этой конфигурации указываются параметры, такие как MAC-адрес, максимальный размер передаваемого кадра и адрес конечной точки удаленного узла, необходимые для обеспечения виртуальной приватной службы LAN.  
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4ca53163-abc3-4216-9a9a-55c011669b9f" width=900></p>
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9da88d11-baa5-42b6-b5b6-acf08148eabe" width=900></p>
+3. SVL
 
-Видно, в какой момент были отправлены icmp запросы.
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/bf0f0226-6283-4f7c-9516-1ef0f742118e" width=900></p>
 
-### <a name="section4.1">Проверка связи</a>
+
+### <a name="section4.1">Проверка связи VRF</a>
 
 * PC2 -> PC1 и PC2 -> PC3
 
@@ -146,6 +149,14 @@ Date of finished: 10.12.2023
 * PC3 -> PC2 и PC3 -> PC1
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/e06d0c7b-81e4-4296-bd5e-ba92a3a7020e" width=900></p>
+
+### <a name="section4.1">Настройка VPLS</a>
+
+После мы разобрали VRF на 3 роутерах, на узлах был настроен VPLS в этой конфигурации указываются параметры, такие как MAC-адрес, максимальный размер передаваемого кадра и адрес конечной точки удаленного узла, необходимые для обеспечения виртуальной приватной службы LAN.  
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9da88d11-baa5-42b6-b5b6-acf08148eabe" width=900></p>
+
+Видно, в какой момент были отправлены icmp запросы.
 
 ## <a name="section4.5">Вывод</a>
 
