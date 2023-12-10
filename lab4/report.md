@@ -40,7 +40,7 @@ Date of finished: 10.12.2023
 
 ### <a name="section4.1">Построение схемы</a>
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/5d5b02f4-3798-4eb1-b3ad-4107155242e6" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/14aa5f32-23bb-49f5-96ca-edfbff8e2eb7" width=900></p>
 
 На каждом из маршрутизаторов были настроены интерфейсы.
 
