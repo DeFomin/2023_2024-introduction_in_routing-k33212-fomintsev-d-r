@@ -162,18 +162,35 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/c48b206b-6526-4285-9c75-51a1e06f0bf1" width=900></p>
 
-
-<!-- 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9da88d11-baa5-42b6-b5b6-acf08148eabe" width=900></p> 
--->
-
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/5f63dd1d-68c4-4263-9150-f55456fa5f00" width=900>
 
+Для соответственного удаленного устройства были созданы интерфейсы vpls. Например для роутера NYC:
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/973c05c5-938a-42f7-af84-1a16e7d9e0b3" width=900>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/d4fefcdc-46c3-4d17-a461-95d87aa3b7e7" width=900>
+
+Также был создан дополнительный bridge для VPLS на всех роутерах, связанных с пк. Также он был связан с соответственными интерфейсами PC и vpls1, vpls2 
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4a6f939b-6a0b-4882-b7f0-0906652714fc" width=900>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/d2b95725-bc5a-4f5c-9960-fa7e03e36cdc" width=900>
 
 ### <a name="section4.1">Проверка связи VPLS</a>
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/3a1d476f-5c89-493d-ad11-40a0a931bec5" width=900>
+* PC2
 
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/51769cd3-1fc2-4760-9fb0-e3ae94bfb092" width=900>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/134c28a9-43ea-4c6b-873c-8fc035946476" width=900>
+
+* PC1
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/c7ba4db7-b756-48fc-a63b-48113edb965d" width=900>
+
+* PC3
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/610b24f9-c7be-46a3-b567-e886e3863080" width=900>
 
 ## <a name="section4.5">Вывод</a>
 
