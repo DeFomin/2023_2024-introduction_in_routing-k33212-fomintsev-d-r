@@ -158,11 +158,22 @@ Date of finished: 10.12.2023
 
 ### <a name="section4.1">Настройка VPLS</a>
 
-После мы разобрали VRF на 3 роутерах, на узлах был настроен VPLS в этой конфигурации указываются параметры, такие как MAC-адрес, максимальный размер передаваемого кадра и адрес конечной точки удаленного узла, необходимые для обеспечения виртуальной приватной службы LAN.  
+После мы разобрали VRF на 3 роутерах, которые соединены с PC, на узлах был настроен VPLS в этой конфигурации указываются параметры, такие как MAC-адрес, максимальный размер передаваемого кадра и адрес конечной точки удаленного узла, необходимые для обеспечения виртуальной приватной службы LAN.  
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9da88d11-baa5-42b6-b5b6-acf08148eabe" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/c48b206b-6526-4285-9c75-51a1e06f0bf1" width=900></p>
 
-Видно, в какой момент были отправлены icmp запросы.
+
+<!-- 
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9da88d11-baa5-42b6-b5b6-acf08148eabe" width=900></p> 
+-->
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/5f63dd1d-68c4-4263-9150-f55456fa5f00" width=900>
+
+
+### <a name="section4.1">Проверка связи VPLS</a>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/3a1d476f-5c89-493d-ad11-40a0a931bec5" width=900>
+
 
 ## <a name="section4.5">Вывод</a>
 
