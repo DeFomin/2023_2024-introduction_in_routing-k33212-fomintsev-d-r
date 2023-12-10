@@ -34,7 +34,7 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/5d5b02f4-3798-4eb1-b3ad-4107155242e6" width=900></p>
 
-На каждом из маршрутизаторов были настроены интерфейсы. На примере роутера Нью-Йорка
+На каждом из маршрутизаторов были настроены интерфейсы.
 
 * Роутер NYC
 
@@ -86,19 +86,18 @@ Date of finished: 10.12.2023
 
 В параметрах, при заранее определенных интефейсах и создании network backbone, автоматически создаются интерфейсы OSPF
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/1f416eff-4eb2-4c04-b43f-91caab4379bb)" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/61125540-1183-4979-8121-f7764ed54cdd" width=900></p>
 
-<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/f3e3f3c1-36ef-4bf7-84f7-02976aa58745" width=900></p>
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/01cfdec3-7166-4779-ae18-581e810cd89b" width=900></p>
 
 Также было проделано на остальных роутерах
 
-Далее настраиваем MPLS сеть, аналогично на примере роутера NYC
+Далее настраиваем MPLS сеть на примере лондонского роутера
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/5e755b0c-00f1-476a-b270-af8a5091555f" width=900></p>
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4a84a72f-bf5d-48c3-bbc1-75120cc137ac" width=900></p>
 
-Видно также тег VPLS
 
 ### <a name="section4.1">Настройка VRF</a>
 
