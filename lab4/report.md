@@ -40,24 +40,69 @@ Date of finished: 10.12.2023
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/dc788b9c-99a3-41d7-be63-ee8ca696761a" width=800></p>
 
-
 ### <a name="section4.1">Настройка BGP</a>
 
-![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/3f56a08b-9a67-4fa8-890b-592f4f54e37e)
+Настройки BGP, прописываются к ближайшим интерфейсам узла
 
-![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9c8f8e00-1de9-449d-b100-228f4f71ed9b)
+Например:
 
-![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9023a8aa-0752-4abb-a7ee-cd25f5cdf803)
+* Роутер NYC
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/1c7af363-c9ff-4f76-9292-83b3ad87a4fa" width=800></p>
+
+* Роутер LND
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/0677ff19-16d7-48e6-a156-6543f8100e39" width=800></p>
+
+* Роутер HKI
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/416f8f8e-f7c3-4b9d-918f-d22f413facbb" width=800></p>
 
 ### <a name="section4.1">Настройка OSPF и MPLS</a>
 
-![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4087cfb5-2c8f-406d-b2a3-13bbf2994979)
+Для настройки OSPF на всех узлах был создан bridge Lo
 
-![image](https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/7de1eabd-b99d-4f14-b354-85f6f9c39fde)
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/dc07d41c-f042-40a9-a4f8-315b6fda9c1e" width=800></p>
 
+В параметрах, при заранее определенных интефейсах и создании network backbone, автоматически создаются интерфейсы OSPF
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/1f416eff-4eb2-4c04-b43f-91caab4379bb)" width=800></p>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/f3e3f3c1-36ef-4bf7-84f7-02976aa58745" width=800></p>
+
+Также было проделано на остальных роутерах
+
+Далее настраиваем MPLS сеть, аналогично на примере роутера NYC
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/5e755b0c-00f1-476a-b270-af8a5091555f" width=800></p>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/4a84a72f-bf5d-48c3-bbc1-75120cc137ac" width=800></p>
+
+Видно также тег VPLS
 
 ### <a name="section4.1">Настройка VRF</a>
 
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/bd78cdd0-8d32-43b3-9dd4-adacd2beaa3a" width=800></p>
+
+Для того чтобы разобрать VRF (технология, позволяющая реализовывать на базе одного физического маршрутизатора иметь несколько виртуальных – каждого со своей независимой таблицей маршрутизации) на 3 роутерах и их ip адреса не были доступны в таблице маршрутизации main на каждом роутере, связанном с PC создаем интерфесы на вкладке ip-routes-vrf
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/78155424-5429-4563-884f-68eabfe60508)
+
+Далее, при условии, что в настроены iBGP с route reflector кластером на узле LND и включены нужные технологии на всех роутерах в настройках BGP, в появившейся вкладке VPN4 автоматически появятся маршруты
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/d8d64308-78b1-4369-880e-a45237968037" width=800></p>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/172176c8-23df-49cb-b754-9a3c2a5abacb" width=800></p>
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/0006a94d-a583-4471-a7b9-1cdeaa6248a2" width=800></p>
+
+### <a name="section4.1">Настройка VPLS</a>
+
+Также на узлах был настроен VPLS в этой конфигурации указываются параметры, такие как MAC-адрес, максимальный размер передаваемого кадра и адрес конечной точки удаленного узла, необходимые для обеспечения виртуальной приватной службы LAN.  
+
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/9da88d11-baa5-42b6-b5b6-acf08148eabe" width=800></p>
+
+Видно, в какой момент были отправлены icmp запросы.
 
 ### <a name="section4.1">Таблицы маршрутизации роутера NYC</a>
 
