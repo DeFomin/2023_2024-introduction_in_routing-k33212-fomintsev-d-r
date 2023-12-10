@@ -180,6 +180,8 @@ Date of finished: 10.12.2023
 
 * PC2
 
+<p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/edff66fa-c69f-4cfb-adf2-21bfc5ffcb32" width=900>
+
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/51769cd3-1fc2-4760-9fb0-e3ae94bfb092" width=900>
 
 <p align=center><img src="https://github.com/DeFomin/2023_2024-introduction_in_routing-k33212-fomintsev-d-r/assets/90705279/134c28a9-43ea-4c6b-873c-8fc035946476" width=900>
